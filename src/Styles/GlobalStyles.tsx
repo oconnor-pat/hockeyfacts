@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 body {
-    background-image: url("/src/assets/nhllogo.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
