@@ -30,6 +30,11 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background-image: url("./assets/nhllogo.jpeg");
+
+  @media only screen and (max-width: 480px) {
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 h1 {
